@@ -1,0 +1,27 @@
+{
+  "name": "postgres-in-node-with-knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MQThai/postgres-in-node-with-knex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MQThai/postgres-in-node-with-knex/issues"
+  },
+  "homepage": "https://github.com/MQThai/postgres-in-node-with-knex#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "npm": "^6.0.1"
+  }
+}
