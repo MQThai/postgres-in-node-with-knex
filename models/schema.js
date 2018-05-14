@@ -29,7 +29,7 @@ class Idea extends Model {
   static get tableName () {
     return 'ideas'
   }
-  
+
   static get relationMappings () {
     return {
       comments: {
