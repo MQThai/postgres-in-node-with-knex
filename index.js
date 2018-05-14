@@ -15,7 +15,7 @@ app.set('port', process.env.PORT || 3000)
 app.set('view engine', 'hbs')
 
 app.use(cors())
-app.use('/ideas', ideas)
+// app.use('/ideas', ideas)
 
 app.listen(app.get('port'), () => {
   console.log('Hi')
