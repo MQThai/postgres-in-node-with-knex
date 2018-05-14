@@ -14,7 +14,7 @@ app.use(parser.json())
 app.set('port', process.env.PORT || 3000)
 
 app.use(cors())
-// app.use('/ideas', ideas)
+app.use('/ideas', ideas)
 
 app.listen(app.get('port'), () => {
   console.log('Hi')
